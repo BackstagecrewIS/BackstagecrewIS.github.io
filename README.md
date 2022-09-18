@@ -24,35 +24,57 @@ A map and directions to the pub is desireable.
 #### Future plans
 In the future it would be desirable for the landlord to be able to update the guest beers on the site without having to resort to coding.
 
+#### Usability
+Most users are assumed to be accessing the site on a mobile device so the site should adopt a mobile first design.
+Users should be able to navigate the site without difficulty so navigation should be intuitive.
+
 For the initial build, this site will incorporate:
-..* Information about the pub
-..* A list of available beers
-..* A downloadable list of continental beers
-..* Some information about the available rooms and facilities
-..* Information and directions to the pub with a local map showing the location
-..* Contact form to email enquiries
+* Information about the pub
+* A list of available beers
+* A downloadable list of continental beers
+* Some information about the available rooms and facilities
+* Information and directions to the pub with a local map showing the location
+* Contact form to email enquiries
 
 Future Development:
-..* Add a method to add and remove guest beers to the beer list (methodology to be determined)
-
+* Add a method to add and remove guest beers to the beer list (methodology to be determined)
+* Link beers to Untappd.com so users can 'check in' the beers they are drinking
 
 ### The structure plane:
 How is the information structured and how is it logically grouped?
-The landing page should contain a welcome message and basic information about the pub. There should also be a navigation area to other areas of the site,
+
+The landing page should contain a welcome message and basic information about the pub. There should also be a navigation area to other areas of the site.
 
 The beer list should be on a separate page with a link to download the continental beer list.
 
 Another page should show the rooms and facilities with a link to the contact page for enquiries.
 
-Information and directions with a map should be on a third page.
+Information and directions with a map should be on a fourth page. This page will contain the contact form.
 
 All pages should have navigation links to the other pages.
 
 
 ### The skeleton plane:
-How will our information be represented, and how will the user navigate to the information and the features?
+
+index.html
+The landing page will contain a welcome message and basic information about the pub. There should also be a navigation area to other areas of the site.
+
+beers.html
+The list of beers with a link to the pdf containing the list of continental beers
+
+rooms.html
+Information about the rooms and facilities
+
+contact.html
+A contact form
+A local area map and directions to the pub from the railway station and the bus station.
+The directions will have images to help the user to begin their navigation
+
+A navigation area must be included on each page to allow the user to move between pages
+The links will all open in the same tab except for the link to the pdf which will open in a new tab.
 
 ### The surface plane:
+
 What will the finished product look like?
 What colors, typography, and design elements will we use?
 
