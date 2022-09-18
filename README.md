@@ -1,7 +1,7 @@
-# Alexandra-Hotel
+# Alexandra Hotel
 A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framework
 
-![Alexandra Hotel](https://github.com/BackstagecrewIS/Alexandra-Hotel/img/alexandra-outside.jpg "Alexandra Hotel Exterior")
+![Alexandra Hotel](/assets/img/alexandra-outside.jpg "Alexandra Hotel Exterior")
 
 ## Design Strategy
 
