@@ -86,7 +86,7 @@ The directions will have images to help the user to begin their navigation
 A navigation area must be included on each page to allow the user to move between pages
 The links will all open in the same tab except for the link to the pdf which will open in a new tab.
 
-![index.html wireframe](/assets/wireframes/index-mobile.png "Wireframe for index page")
+![index.html wireframe](/assets/wireframes/index-mobile.png "Wireframe for index page") The main landing page
 
 ![beers.html wireframe](/assets/wireframes/beers-mobile.png "Wireframe for beers page")
 
@@ -97,6 +97,8 @@ The links will all open in the same tab except for the link to the pdf which wil
 
 ### The surface plane:
 **What will the finished product look like? What colors, typography, and design elements will we use?**
+
+
 
 
 A good README.md file has a link to the live deployed project.
