@@ -74,8 +74,3 @@ future, and what bugs you found and squashed along the way.
 If you want, you can even separate your tests into a TESTING.md file if you
 want to keep things a bit easier to read. A detailed README MD file can really
 help the reader to get a feel for your project and your vision as a developer.
-<<<<<<< HEAD
-It's also essential for your milestone projects!
-=======
-It's also essential for your milestone projects!
->>>>>>> fe206d6 (Initial Commit - Add README.md file with image)
