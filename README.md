@@ -6,16 +6,21 @@ A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framewor
 ## Design Strategy
 
 ### The strategy plane:
-The website is for The Alexandra Hotel as a simple online advertisement of what is available when you visit the pub.
+**What are you aiming to achieve in the first place and for whom?**
+
+The website is for The Alexandra Hotel as a simple online advertisement of what is available when a customer visits the pub.
+
+The users will be a mixture of local regular visitors and tourists / travellers visiting the area.
 
 ### The scope plane:
+**Which features, based on information from the strategy plane, do you want to include in your design?**
 
 #### Must Have
-Some information about the pub.
-The pub serves a range of beers and would like to give information about each of them.
+A welcome message and some information about the pub.
+The pub serves a range of regular beers and would like to give information about each of them.
 
 The pub serves a large range of continental bottled beers and would like to have a list of these available.
-The pub has three guest rooms where customers can stay the night and would like to show information about them.
+The pub has three guest rooms where visitors can stay the night and would like to show information about them.
 
 #### Could Have
 A simple contact form would be useful for people to enquire about room bookings.
@@ -29,8 +34,8 @@ Most users are assumed to be accessing the site on a mobile device so the site s
 Users should be able to navigate the site without difficulty so navigation should be intuitive.
 
 For the initial build, this site will incorporate:
-* Information about the pub
-* A list of available beers
+* Welcome message and information about the pub
+* A list of regularly available beers
 * A downloadable list of continental beers
 * Some information about the available rooms and facilities
 * Information and directions to the pub with a local map showing the location
@@ -41,7 +46,14 @@ Future Development:
 * Link beers to Untappd.com so users can 'check in' the beers they are drinking
 
 ### The structure plane:
-How is the information structured and how is it logically grouped?
+**How is the information structured and how is it logically grouped?**
+
+The information should be grouped by;
+
+* Welcome and information
+* Beers
+* Rooms and facilities
+* Location information and contact form
 
 The landing page should contain a welcome message and basic information about the pub. There should also be a navigation area to other areas of the site.
 
@@ -55,6 +67,7 @@ All pages should have navigation links to the other pages.
 
 
 ### The skeleton plane:
+**How will our information be represented, and how will the user navigate to the information and the features?**
 
 index.html
 The landing page will contain a welcome message and basic information about the pub. There should also be a navigation area to other areas of the site.
@@ -73,10 +86,17 @@ The directions will have images to help the user to begin their navigation
 A navigation area must be included on each page to allow the user to move between pages
 The links will all open in the same tab except for the link to the pdf which will open in a new tab.
 
-### The surface plane:
+![index.html wireframe](/assets/wireframes/index-mobile.png "Wireframe for index page")
 
-What will the finished product look like?
-What colors, typography, and design elements will we use?
+![beers.html wireframe](/assets/wireframes/beers-mobile.png "Wireframe for beers page")
+
+![rooms.html wireframe](/assets/wireframes/rooms-mobile.png "Wireframe for rooms page")
+
+![contact.html wireframe](/assets/wireframes/contact-mobile.png "Wireframe for contact page")
+
+
+### The surface plane:
+**What will the finished product look like? What colors, typography, and design elements will we use?**
 
 
 A good README.md file has a link to the live deployed project.
