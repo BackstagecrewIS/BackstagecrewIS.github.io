@@ -17,13 +17,16 @@ The users will be a mixture of local regular visitors and tourists / travellers 
 
 #### Must Have
 A welcome message and some information about the pub.
+
 The pub serves a range of regular beers and would like to give information about each of them.
 
 The pub serves a large range of continental bottled beers and would like to have a list of these available.
+
 The pub has three guest rooms where visitors can stay the night and would like to show information about them.
 
 #### Could Have
 A simple contact form would be useful for people to enquire about room bookings.
+
 A map and directions to the pub is desireable.
 
 #### Future plans
@@ -31,6 +34,7 @@ In the future it would be desirable for the landlord to be able to update the gu
 
 #### Usability
 Most users are assumed to be accessing the site on a mobile device so the site should adopt a mobile first design.
+
 Users should be able to navigate the site without difficulty so navigation should be intuitive.
 
 For the initial build, this site will incorporate:
@@ -76,7 +80,7 @@ beers.html
 The list of beers with a link to the pdf containing the list of continental beers
 
 rooms.html
-Information about the rooms and facilities
+Information about the rooms and facilities with at least one image per room
 
 contact.html
 A contact form
@@ -86,19 +90,18 @@ The directions will have images to help the user to begin their navigation
 A navigation area must be included on each page to allow the user to move between pages
 The links will all open in the same tab except for the link to the pdf which will open in a new tab.
 
-![index.html wireframe](/assets/wireframes/index-mobile.png "Wireframe for index page") The main landing page
-
-![beers.html wireframe](/assets/wireframes/beers-mobile.png "Wireframe for beers page")
-
-![rooms.html wireframe](/assets/wireframes/rooms-mobile.png "Wireframe for rooms page")
-
-![contact.html wireframe](/assets/wireframes/contact-mobile.png "Wireframe for contact page")
-
 
 ### The surface plane:
 **What will the finished product look like? What colors, typography, and design elements will we use?**
+Wireframes for each of the pages is below:
 
+<a href="/assets/wireframes/index-mobile.png" target="_blank">index.html Wireframe</a>
 
+<a href="/assets/wireframes/beers-mobile.png" target="_blank">beers.html Wireframe</a>
+
+<a href="/assets/wireframes/rooms-mobile.png" target="_blank">rooms.html Wireframe</a>
+
+<a href="/assets/wireframes/contact-mobile.png" target="_blank">contact.html Wireframe</a>
 
 
 A good README.md file has a link to the live deployed project.
