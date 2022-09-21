@@ -3,6 +3,14 @@ A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framewor
 
 ![Alexandra Hotel](/assets/img/alexandra-outside.jpg "Alexandra Hotel Exterior")
 
+#### Table of Contents
+
+- [Design Strategy](#design-strategy)
+- [](#)
+- [](#)
+- [](#)
+
+
 ## Design Strategy
 
 ### The strategy plane:
