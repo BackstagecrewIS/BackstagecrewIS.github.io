@@ -1,14 +1,40 @@
-# Alexandra Hotel
-A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framework
+<h1 align="center">Alexandra Hotel Website</h1>
+(Link to website when available)
 
-![Alexandra Hotel](/assets/img/alexandra-outside.jpg "Alexandra Hotel Exterior")
+A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framework
+It is designed with mobile users in mind as many of the site visitors will be 
+
+![Alexandra Hotel](/assets/images/alexandra-outside.jpg "Alexandra Hotel Exterior")
 
 #### Table of Contents
 
+- [](#)
 - [Design Strategy](#design-strategy)
 - [](#)
 - [](#)
 - [](#)
+
+
+## User Experience (UX)
+
+* User Stories
+  - First Time Visitor Goals
+
+  - Returning Visitor Goals
+
+  - Frequent User Goals
+
+* Design
+  - Colour Scheme
+  - Typography
+  - Imagery
+
+* Wireframes
+  - Home Page Wireframe - <a href="/assets/wireframes/index-mobile.png" target="_blank">View</a>
+  - Beer Page Wireframe - <a href="/assets/wireframes/beers-mobile.png" target="_blank">View</a>
+  - Rooms Page Wireframe - <a href="/assets/wireframes/rooms-mobile.png" target="_blank">View</a>
+  - Contact Page Wireframe - <a href="/assets/wireframes/View" target="_blank">View</a>
+
 
 
 ## Design Strategy
