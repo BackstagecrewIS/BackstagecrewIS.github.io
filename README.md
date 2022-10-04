@@ -8,7 +8,7 @@ It is designed with mobile users in mind as many of the site visitors will be
 
 #### Table of Contents
 
-- [](#)
+- [User Experience UX](#user-experience-ux)
 - [Design Strategy](#design-strategy)
 - [](#)
 - [](#)
@@ -17,16 +17,41 @@ It is designed with mobile users in mind as many of the site visitors will be
 
 ## User Experience (UX)
 
-* User Stories
-  - First Time Visitor Goals
+* ### User Stories
+  - #### First Time Visitor Goals
+  
+    a As a first time visitor, Iwant to know that I am on the correct website. (There is more than one Alexandra Hotel).
 
-  - Returning Visitor Goals
+    b As a first time visitor, I want to be able to use the site to find the information I am looking for.
 
-  - Frequent User Goals
+    c As a first time visitor, I want the site to be intuitive. I want to be able to understand the navigation without instructions.
+    
+    d As a first time visitor, I want to find directions to the pub.
 
-* Design
+  - #### Returning Visitor Goals
+  
+    a As a returning visitor, I want to know what beers are available before my visit to the hotel.
+    
+    b As a returning visitor, I want to be able to find the contact form to send a message to the pub,
+    
+    c As a returning visitor, I want to find information about boking a room for the night.
+
+  - #### Frequent User Goals
+  
+    a As a frequent user, I want to see what beers are available.
+    
+    b As a returning visitor, I want more information about continental beers.
+    
+    c As a frequent user, I want to find links to the pub's social media accounts.
+
+* Design Considerations
   - Colour Scheme
+    The main colours on the pub sign are blue and gold. The colour scheme should reflect this
+    
   - Typography
+    To ensure clarity of text on the website, a sans serif font is preferred.
+    The Poppins font has a variety of sizes available and will be used with Sans Serif as a backup in case the desired font fails to load.
+    
   - Imagery
 
 * Wireframes
