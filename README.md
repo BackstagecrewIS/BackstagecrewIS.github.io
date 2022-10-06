@@ -56,10 +56,10 @@ It is designed with mobile users in mind as many of the site visitors will be
     A large hero image of the pub at the top of the landing page will serve to illustrate the pub
 
 * Wireframes
-  - Home Page Wireframe - <a href="/assets/wireframes/index-mobile.png" target="_blank">View</a>
-  - Beer Page Wireframe - <a href="/assets/wireframes/beers-mobile.png" target="_blank">View</a>
-  - Rooms Page Wireframe - <a href="/assets/wireframes/rooms-mobile.png" target="_blank">View</a>
-  - Contact Page Wireframe - <a href="/assets/wireframes/View" target="_blank">View</a>
+  - Home Page Wireframe - <a href="/assets/wireframes/index.png" target="_blank">View</a>
+  - Beer Page Wireframe - <a href="/assets/wireframes/beers.png" target="_blank">View</a>
+  - Rooms Page Wireframe - <a href="/assets/wireframes/rooms.png" target="_blank">View</a>
+  - Contact Page Wireframe - <a href="/assets/wireframes/contact.png" target="_blank">View</a>
 
 
 
