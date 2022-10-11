@@ -20,29 +20,29 @@ It is designed with mobile users in mind as many of the site visitors will be
 * ### User Stories
   - #### First Time Visitor Goals
   
-    a As a first time visitor, Iwant to know that I am on the correct website. (There is more than one Alexandra Hotel).
+    a. As a first time visitor, I want to know that I am on the correct website. (There is more than one Alexandra Hotel).
 
-    b As a first time visitor, I want to be able to use the site to find the information I am looking for.
+    b. As a first time visitor, I want to be able to use the site to find the information I am looking for.
 
-    c As a first time visitor, I want the site to be intuitive. I want to be able to understand the navigation without instructions.
+    c. As a first time visitor, I want the site to be intuitive. I want to be able to understand the navigation without instructions.
     
-    d As a first time visitor, I want to find directions to the pub.
+    d. As a first time visitor, I want to find directions to the pub.
 
   - #### Returning Visitor Goals
   
-    a As a returning visitor, I want to know what beers are available before my visit to the hotel.
+    a. As a returning visitor, I want to know what beers are available before my visit to the hotel.
     
-    b As a returning visitor, I want to be able to find the contact form to send a message to the pub,
+    b. As a returning visitor, I want to be able to find the contact form to send a message to the pub,
     
-    c As a returning visitor, I want to find information about boking a room for the night.
+    c. As a returning visitor, I want to find information about boking a room for the night.
 
   - #### Frequent User Goals
   
-    a As a frequent user, I want to see what beers are available.
+    a. As a frequent user, I want to see what beers are available.
     
-    b As a returning visitor, I want more information about continental beers.
+    b. As a returning visitor, I want more information about continental beers.
     
-    c As a frequent user, I want to find links to the pub's social media accounts.
+    c. As a frequent user, I want to find links to the pub's social media accounts.
 
 * Design Considerations
   - Colour Scheme
@@ -53,7 +53,7 @@ It is designed with mobile users in mind as many of the site visitors will be
     The Poppins font has a variety of sizes available and will be used with Sans Serif as a backup in case the desired font fails to load.
     
   - Imagery
-    A large hero image of the pub at the top of the landing page will serve to illustrate the pub
+    A large hero image of the pub at the top of the landing page will serve to illustrate the pub and to reassure that the visitor is looking at the correct site
 
 * Wireframes
   - Home Page Wireframe - <a href="../assets/wireframes/index.png" target="_blank">View</a>
@@ -77,9 +77,9 @@ The users will be a mixture of local regular visitors and tourists / travellers 
 #### Must Have
 A welcome message and some information about the pub.
 
-The pub serves a range of regular beers and would like to give information about each of them.
+The pub serves a range of regular beers and would like to give information about each of them. This will be the name of the brewery, the beer name, the abv (strength) and some tasting notes. A picture of the pump clip will help the visitor locate the beer on the bar.
 
-The pub serves a large range of continental bottled beers and would like to have a list of these available.
+The pub serves a large range of continental bottled beers and would like to have a list of these available. This can be provided using a link to download a pdf from the beers page.
 
 The pub has three guest rooms where visitors can stay the night and would like to show information about them.
 
@@ -98,11 +98,11 @@ Users should be able to navigate the site without difficulty so navigation shoul
 
 For the initial build, this site will incorporate:
 * Welcome message and information about the pub
-* A list of regularly available beers
+* A list of regularly available beers with details
 * A downloadable list of continental beers
 * Some information about the available rooms and facilities
 * Information and directions to the pub with a local map showing the location
-* Contact form to email enquiries
+* A contact form to email enquiries
 
 Future Development:
 * Add a method to add and remove guest beers to the beer list (methodology to be determined)
@@ -154,13 +154,13 @@ The links will all open in the same tab except for the link to the pdf which wil
 **What will the finished product look like? What colors, typography, and design elements will we use?**
 Wireframes for each of the pages is below:
 
-<a href="/assets/wireframes/index-mobile.png" target="_blank">index.html Wireframe</a>
+<a href="/assets/wireframes/index.png" target="_blank">index.html Wireframe</a>
 
-<a href="/assets/wireframes/beers-mobile.png" target="_blank">beers.html Wireframe</a>
+<a href="/assets/wireframes/beers.png" target="_blank">beers.html Wireframe</a>
 
-<a href="/assets/wireframes/rooms-mobile.png" target="_blank">rooms.html Wireframe</a>
+<a href="/assets/wireframes/rooms.png" target="_blank">rooms.html Wireframe</a>
 
-<a href="/assets/wireframes/contact-mobile.png" target="_blank">contact.html Wireframe</a>
+<a href="/assets/wireframes/contact.png" target="_blank">contact.html Wireframe</a>
 
 
 ## Features
