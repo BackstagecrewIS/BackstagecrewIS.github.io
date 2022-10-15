@@ -26,7 +26,7 @@ header {
 
 .hero-image {
     background: url("../images/alexandra-outside.jpg");
-    background-position-x: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -150,17 +150,39 @@ header {
 
 @media screen and (max-width:934px) {
     
+
+    .hero-image {
+        background: url("../images/alexandra-outside-md.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 360px;
+        transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+    }
+
     .pub-sign {
-        font-family: "Hahmlet", "Times New Roman", "Times", serif;
         font-weight: 400;
         font-size: 32px;
     }
 
     .welcome {
-        font-family: "Poppins", sans-serif;
         padding: 57px;
         font-size: 24px;
     }
+}
+
+@media screen and (max-width:770px) {
+    
+    #hero-image {
+        display: none;
+    }
+
+    .pub-sign {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width:420px) {
