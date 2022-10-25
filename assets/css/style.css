@@ -104,7 +104,6 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: gold;
     font-size: 26px;
 }
 
@@ -119,7 +118,7 @@ header {
     letter-spacing: 2px;
 }
 
-.active {
+.active, .active span, .active li, .active i {
     color: blue;
     background-color: white;
 }
@@ -159,6 +158,33 @@ header {
     display: block;
     margin: 0 auto;
     max-height: 150px;
+}
+
+.main-content p {
+    padding: 10px;
+    text-align: center;
+}
+
+/*------------------------- rooms ----------------------- */
+
+.room-info {
+    display: block;
+    padding: 10;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.room-info h2 {
+    text-align: center;
+}
+
+.room-info p {
+    margin: 10px;
+    text-align: justify;
+}
+.room-image {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 

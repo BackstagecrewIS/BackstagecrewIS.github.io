@@ -191,9 +191,6 @@ Navigation and use of the website must be intuitive allowing the user to be able
 [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 Bootstrap was used to assist with the responsiveness and styling of the website.
 
-Hover.css:
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-
 [Google Fonts:](https://fonts.google.com/)
 Google fonts were used to import the 'Poppins' font into the style.css file which is used on all pages throughout the project.
 The pub sign in the header uses 'Hahmlet' font because it is a close match to the font used on the actual pub sign.
@@ -215,6 +212,12 @@ Photoshop was used to create the logo, resizing images and editing photos for th
 
 [Balsamiq:](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process.
+
+## Image Credits
+
+All the images for the website (with the exception of the room images) were provided by the hotel who retain the rights to their images.
+
+The room images are placeholders which were sourced from [Pexels.com](https://www.pexels.com/license/) and are licenced to use for this purpose.
 
 ## Testing
 
