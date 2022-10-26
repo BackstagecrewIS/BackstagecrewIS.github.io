@@ -207,17 +207,25 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 [GitHub:](https://github.com/)
 GitHub is used to store the projects code after being pushed from Git.
 
-[Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-Photoshop was used to create the logo, resizing images and editing photos for the website.
+[Adobe Fireworks CS6:](https://www.adobe.com)
+Fireworks CS6 was used to create the logo, resizing images and editing photos for the website.
 
 [Balsamiq:](https://balsamiq.com/)
 Balsamiq was used to create the wireframes during the design process.
 
 ## Image Credits
 
-All the images for the website (with the exception of the room images) were provided by the hotel who retain the rights to their images.
+The image of the hotel exterior was provided by the hotel who retain the rights to their image.
 
 The room images are placeholders which were sourced from [Pexels.com](https://www.pexels.com/license/) and are licenced to use for this purpose.
+
+The map and streetview images on the contact page are taken from [Google Maps](https://www.google.com/intl/en-GB_ALL/permissions/geoguidelines/) which is free to use with direct links to the Google Maps content.
+[Licencing Infomation](https://www.google.com/intl/en-GB_ALL/permissions/geoguidelines/#:~:text=Using%20Street%20View%20imagery)
+
+The pump clip images and tasting notes for the beers were sourced from [The Real Ale Database](https://realaledb.com)
+The information on this site is free to use under [Fair Dealing for Private Study](https://www.gov.uk/guidance/exceptions-to-copyright#non-commercial-research-and-private-study:~:text=as%20amended.-,Non%2Dcommercial%20research%20and%20private%20study,-You%20are%20allowed) as the site do not profit from and share their data freely.
+
+
 
 ## Testing
 

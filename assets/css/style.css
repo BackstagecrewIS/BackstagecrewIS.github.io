@@ -158,8 +158,13 @@ header {
     border:1px solid black;
 }
 
-.beer-info h2, h3, h4, p {
+.beer-info h2, h3, h4 {
     text-align: center;
+}
+
+.beer-info p {
+    text-align: justify;
+    padding: 10px;
 }
 
 .pumpclip {
@@ -179,7 +184,7 @@ header {
 
 .room-info {
     display: block;
-    padding: 10;
+    padding: 10px;
     border: 1px solid #000;
     border-radius: 5px;
 }
@@ -190,6 +195,7 @@ header {
 
 .room-info p {
     margin: 10px;
+    font-size: 16px;
     text-align: justify;
 }
 .room-image {
@@ -198,7 +204,8 @@ header {
 }
 
 
-/*------------------------- footer ----------------------- */
+
+/*------------------------- Footer ----------------------- */
 
 .footer {
     font-family: "Poppins", sans-serif;
@@ -216,8 +223,14 @@ header {
     font-size: 18px;
 }
 
-/*------------------------- Contact Form ----------------------- */
+/*------------------------- Contact Page ----------------------- */
 
+.map-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 .contact-heading {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -228,7 +241,7 @@ header {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 95%;
 }
 
 button[type="submit"] {
@@ -238,5 +251,25 @@ button[type="submit"] {
     color: gold;
 }
 
+.contact-card {
+    border: 1px solid #00F
+}
+
 /*------------------------- media queries ----------------------- */
 
+@media(max-width: 576px) {
+    
+    .room-image {
+        display: block;
+    }
+
+    .room-info p {
+        font-size: 24px;
+    }
+
+    .beer-info p {
+        font-size: 24px;
+    }
+
+    
+}
