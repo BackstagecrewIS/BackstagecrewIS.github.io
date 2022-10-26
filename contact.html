@@ -13,12 +13,10 @@
     <div class="container">
         <header class="container-fluid">
             <div class="navbar row no-gutters">
-                <a href="index.html" class="col-md-12 hero-image"></a>
                 <div class="col-md-12">
                     <div class="row no-gutters">
                         <div class="col colours-pub-sign">
-                            <h1 class="pub-sign">Alexandra Hotel</h1>
-                            <h2 class="welcome welcome-colours">A Warm Welcome Awaits You</h2>
+                            <h1 class="pub-sign uppercase">Alexandra Hotel</h1>
                         </div>
                     </div>
                     <div class="row no-gutters">
@@ -33,7 +31,7 @@
                                 <li class="col-12 col-md-3 list-inline-item ui-menu-colour-bg menuitem">
                                     <a href="rooms.html"><i class="fa-solid fa-bed"></i><span>Rooms</span></a>
                                 </li>
-                                <li class="col-12 col-md-3 list-inline-item ui-menu-colour-bg menuitem">
+                                <li class="col-12 col-md-3 list-inline-item ui-menu-colour-bg menuitem active">
                                     <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
                                 </li>
                             </ul>
@@ -44,29 +42,22 @@
         </header>
 
         <section class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-3 main-content">
-                    <h2>Quality Ales</h2>
-                    <p>A regularly changing selection of quality ales and regulars beers from 
-                        Castle Rock Brewery and guests from around the country.</p>
-                </div>
-                
-                <div class="col-12 col-md-3 main-content">
-                    <h2>Pub Games</h2>
-                    <p>We have darts, dominoes and cribbage for those who like a more traditional pursuit.</p>
-                    <p>If you are more competitive, we also compete in local leagues.</p>
-                </div>
-
-                <div class="col-12 col-md-3 main-content">
-                    <h2>Events</h2>
-                    <p>We have regular food and drink events celebrating anything from St. George's Day
-                    to Portugal Day. (Any excuse to show off our culinary skills)</p>
-                    <p>See our Facebook page for more details.</p>
-                </div>
-                
-                <div class="col-12 col-md-3 main-content">
-                    <h2>Rooms</h2>
-                    <p>Our four letting rooms are all en-suite (showers only) and available from £30 pppn.</p> 
+            <div class="row bg-colour-contact">
+                <div class="col">
+                    <h3 class="contact-heading uppercase text-center">Got any questions?</h3>
+                    <h5 class="uppercase text-center">Message us for the answer</h5>
+                    <div class="center-form">
+                        <form action="https://formdump.codeinstitute.net" method="post">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                            <textarea rows="5"name="enquiry" id="enquiry" class="form-control" placeholder="Ask us a question" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send your question</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

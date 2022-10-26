@@ -17,6 +17,11 @@
     background-color: white;
 }
 
+.bg-colour-contact {
+    background-color: white;
+}
+
+
 
 /*------------------------- Container ----------------------- */
 
@@ -30,6 +35,10 @@
 
 header {
     margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .hero-image {
@@ -46,7 +55,6 @@ header {
 .pub-sign {
     font-family: "Hahmlet", "Times New Roman", "Times", serif;
     font-weight: 600;
-    text-transform: uppercase;
     text-shadow: -2px 2px 2px #000;
     text-align: center;
     font-size: 48px;
@@ -127,6 +135,7 @@ header {
 
 .main-content {
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -144,10 +153,9 @@ header {
 
 .beer-info {
     display: block;
-    padding: 0;
+    padding: 2px;
     border-radius: 5px;
-    
-   outline:1px solid black;
+    border:1px solid black;
 }
 
 .beer-info h2, h3, h4, p {
@@ -157,6 +165,8 @@ header {
 .pumpclip {
     display: block;
     margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-height: 150px;
 }
 
@@ -206,48 +216,27 @@ header {
     font-size: 18px;
 }
 
+/*------------------------- Contact Form ----------------------- */
+
+.contact-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: gold;
+}
+
 /*------------------------- media queries ----------------------- */
 
-@media screen and (max-width:934px) {
-    
-    .pub-sign {
-        font-weight: 400;
-        font-size: 32px;
-    }
-
-    .welcome {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width:770px) {
-    
-    #hero-image {
-        display: none;
-    }
-
-    .pub-sign {
-        font-size: 24px;
-    }
-
-}
-
-@media screen and (max-width:420px) {
-    
-    #hero-image {
-        display: none;
-    }
-
-    .pub-sign {
-        font-size: 24px;
-    }
-
-    .main-content {
-        font-size: 18px;
-    }
-
-    .main-content p {
-    padding: 5px;
-    }
-
-}
