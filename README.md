@@ -1,5 +1,6 @@
 <h1 align="center">Alexandra Hotel Website</h1>
-[Link to the live website when built]
+
+<a href="https://backstagecrewis.github.io/" target="_blank">Live site link</a>
 
 A basic website for The Alexandra Hotel using HTML, CSS and a Bootstrap framework
 It is designed with mobile users in mind as many of the site visitors will be 
@@ -12,7 +13,7 @@ It is designed with mobile users in mind as many of the site visitors will be
 - [Design Strategy](#design-strategy)
 - [Features](#features)
 - [Technologies Used](#Technologies-Used)
-- [Testing](#Testing)
+- [Testing](#Site-Testing)
 
 
 ## User Experience (UX)
@@ -56,9 +57,6 @@ It is designed with mobile users in mind as many of the site visitors will be
   - Imagery
     A large hero image of the pub at the top of the landing page will serve to illustrate the pub and to reassure that the visitor is looking at the correct site
     A heading which includes a representation of the pub sign will further reinforce the brand image od the pub
-
-  - Rule of Thirds
-    Using the Rule of Thirds techniques will give the page better clarity and balance
 
 * Wireframes
   - Home Page Wireframe - <a href="/assets/wireframes/index.png" target="_blank">View</a>
@@ -227,98 +225,72 @@ The information on this site is free to use under [Fair Dealing for Private Stud
 
 
 
-## Testing
+## Site Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator - Results
+W3C Markup Validator - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbackstagecrewis.github.io%2F)
 
-W3C CSS Validator - Results
+W3C CSS Validator - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbackstagecrewis.github.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 Testing User Stories from User Experience (UX) Section
 
-First Time Visitor Goals
+* ### User Stories
+  - #### First Time Visitor Goals
+  
+    a. As a first time visitor, I want to know that I am on the correct website. (There is more than one Alexandra Hotel).
 
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    A large hero image with a replica of the pub sign are at the top of the landing page to show that the user is on the correct site
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. 
+    b. As a first time visitor, I want to be able to use the site to find the information I am looking for.
 
-Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+    The basic information about the pub is displayed on the landing page. Further information is on the relevant pages.
 
-The main points are made immediately with the hero image
+    c. As a first time visitor, I want the site to be intuitive. I want to be able to understand the navigation without instructions.
 
-The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+    There is a large navigation menu on the landing page and all subsequent pages that is always in the same place with the links in the same order. This makes it easy to learn and to find the desired link.
+    
+    d. As a first time visitor, I want to find directions to the pub.
 
-As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    The contact page includes a map and comprehensive direction including links to Google Streetview.
 
-The site has been designed to be fluid and never to entrap the user. 
-At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - #### Returning Visitor Goals
+  
+    a. As a returning visitor, I want to know what beers are available before my visit to the hotel.
 
-At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+    The beers page includes all of the desired information about the regular beers and a link to download the pdf of the continental beer selection.
+    
+    b. As a returning visitor, I want to be able to find the contact form to send a message to the pub,
 
-On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+    The contact form is on the contact page and also linked from the rooms page to guide the user.
+    
+    c. As a returning visitor, I want to find information about booking a room for the night.
 
-As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    The rooms page includes information about booking a room with a direct link to the contact form for any enquiries
 
-Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+  - #### Frequent User Goals
+  
+    a. As a frequent user, I want to see what beers are available.
 
-The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+    The beers page includes all of the desired information about the regular beers and a link to download the pdf of the continental beer selection
+    
+    b. As a returning visitor, I want more information about continental beers.
 
-At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    The beers page includes all of the desired information about the regular beers and a link to download the pdf of the continental beer selection
+    
+    c. As a frequent user, I want to find links to the pub's social media accounts.
 
-Returning Visitor Goals
+    The footer of each page contains links to each of the pub's social media accounts
 
-As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-These are clearly shown in the banner message.
-
-They will be directed to a page with another hero image and call to action.
-
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-The navigation bar clearly highlights the "Contact Us" Page.
-
-Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-
-The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
-The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-
-Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-
-If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group.
-
-The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
-Frequent User Goals
-
-As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-The user would already be comfortable with the website layout and can easily click the banner message.
-
-As a Frequent User, I want to check to see if there are any new blog posts.
-
-The user would already be comfortable with the website layout and can easily click the blog link
-
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
-At the bottom of every page their is a footer which content is consistent throughout all pages.
-
-To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-
-There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 Further Testing
 
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and the mobile phone browser.
 
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, Sony Xperia XZ2.
+
+The site was also tested for responsive behaviour on [ui.dev amiresponsive](https://ui.dev/amiresponsive?url=https://backstagecrewis.github.io/) and[responsivedesignchecker](http://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fbackstagecrewis.github.io%2F&width=1400&height=700) both of which confirmed that the site is behaving as expected on a the full range of devices.
 
 A large amount of testing was done to ensure that all pages were linking correctly.
 
@@ -326,8 +298,5 @@ Friends and family members were asked to review the site and documentation to po
 
 Known Bugs
 
-On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+Below 269 pixels, the pub sign text starts to move beyond the frame of the sign. In futute versions, theere will be a forther section of media queries to further reduce the font size.
 
-A white gap can be seen to the right of the footer and navigation bar as a result.
-
-On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.

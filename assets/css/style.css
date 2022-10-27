@@ -260,6 +260,7 @@ button[type="submit"] {
 @media (max-width: 768px) {
   
     .container {
+        padding: 0;
         width: 85%;
     }
 
@@ -272,6 +273,7 @@ button[type="submit"] {
 @media (max-width: 475px) {
     
     .container {
+        padding: 0;
         width: 100%;
     }
 
