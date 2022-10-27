@@ -26,7 +26,7 @@
 /*------------------------- Container ----------------------- */
 
 .container {
-    width: 95%;
+    width: 1000px;
     margin: 0 auto;
     padding: 0;
 }
@@ -257,7 +257,16 @@ button[type="submit"] {
 
 /*------------------------- media queries ----------------------- */
 
-@media(max-width: 576px) {
+
+@media screen and (max-width: 768px) {
+
+    .pub-sign {
+        font-size: 32Spx;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
     
     .room-image {
         display: block;
@@ -271,5 +280,7 @@ button[type="submit"] {
         font-size: 24px;
     }
 
-    
+    .pub-sign {
+        font-size: 24px;
+    }
 }
