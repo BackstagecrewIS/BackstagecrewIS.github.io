@@ -26,7 +26,7 @@
 /*------------------------- Container ----------------------- */
 
 .container {
-    width: 1000px;
+    width: 75%;
     margin: 0 auto;
     padding: 0;
 }
@@ -167,18 +167,18 @@ header {
     padding: 10px;
 }
 
+.beer-info p {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+
 .pumpclip {
     display: block;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     max-height: 150px;
-}
-
-.beer-info p {
-    font-size: 16px;
-    padding: 10px;
-    text-align: justify;
 }
 
 /*------------------------- rooms ----------------------- */
@@ -202,26 +202,6 @@ header {
 .room-image {
     margin: 0 auto;
     max-width: 100%;
-}
-
-
-
-/*------------------------- Footer ----------------------- */
-
-.footer {
-    font-family: "Poppins", sans-serif;
-    background-color: blue;
-    color: gold;
-    text-decoration: none;
-    font-weight: 300;
-}
-
-.footer a {
-    text-align: center;
-    padding-top: 5px;
-    display: block;
-    color: gold;
-    font-size: 18px;
 }
 
 /*------------------------- Contact Page ----------------------- */
@@ -256,10 +236,32 @@ button[type="submit"] {
     border: 1px solid #00F
 }
 
+/*------------------------- Footer ----------------------- */
+
+.footer {
+    font-family: "Poppins", sans-serif;
+    background-color: blue;
+    color: gold;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.footer a {
+    text-align: center;
+    padding-top: 5px;
+    display: block;
+    color: gold;
+    font-size: 18px;
+}
+
 /*------------------------- media queries ----------------------- */
 
 
 @media screen and (max-width: 768px) {
+  
+    .container {
+        width: 85%;
+    }
 
     .pub-sign {
         font-size: 32px;
@@ -269,6 +271,10 @@ button[type="submit"] {
 
 @media screen and (max-width: 475px) {
     
+    .container {
+        width: 100%;
+    }
+
     .room-image {
         display: block;
     }
