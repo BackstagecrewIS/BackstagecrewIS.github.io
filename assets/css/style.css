@@ -136,7 +136,6 @@ header {
 .main-content {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 14px;
 }
 
 .main-content h2 {
@@ -145,6 +144,7 @@ header {
 }
 
 .main-content p {
+    font-size: 16px;
     padding: 10px;
     text-align: center;
 }
@@ -175,7 +175,8 @@ header {
     max-height: 150px;
 }
 
-.main-content p {
+.beer-info p {
+    font-size: 16px;
     padding: 10px;
     text-align: justify;
 }
@@ -261,7 +262,7 @@ button[type="submit"] {
 @media screen and (max-width: 768px) {
 
     .pub-sign {
-        font-size: 32Spx;
+        font-size: 32px;
     }
 
 }
