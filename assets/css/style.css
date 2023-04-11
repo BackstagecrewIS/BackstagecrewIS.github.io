@@ -69,7 +69,6 @@ header {
     font-weight: 300;
     text-transform:capitalize;
     text-align: center;
-    font-size: 32px;
     padding: 20px;
     margin: 0px auto;
 }
@@ -301,8 +300,8 @@ button[type="submit"] {
         width: 100%;
     }
 
-    .room-image {
-        display: block;
+    .welcome {
+        font-size: 100%;
     }
 
     .room-info p {
