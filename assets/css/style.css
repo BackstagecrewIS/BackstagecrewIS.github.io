@@ -293,3 +293,27 @@ button[type="submit"] {
         font-size: 24px;
     }
 }
+
+@media (max-width: 275px) {
+    
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .room-image {
+        display: block;
+    }
+
+    .room-info p {
+        font-size: 16px;
+    }
+
+    .beer-info p {
+        font-size: 16px;
+    }
+
+    .pub-sign {
+        font-size: 16px;
+    }
+}
