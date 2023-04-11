@@ -18,6 +18,7 @@ It is designed with mobile users in mind as many of the site visitors will be
 - [Features](#features)
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Site-Testing)
+- [Deployment](#Deployment)
 
 
 ## User Experience (UX)
@@ -304,3 +305,43 @@ Known Bugs
 
 Below 269 pixels, the pub sign text starts to move beyond the frame of the sign. In futute versions, theere will be a forther section of media queries to further reduce the font size.
 
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/BackstagecrewIS)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section on the left column.
+4. Under "Source", select 'Deploy from Branch then click the dropdown called "None" and select "Main".
+5. Click Save to confirm the choice.
+6. Scroll back to the top of the page to locate the link to the published site in the "GitHub Pages" section.
+
+[Back to Index](#table-of-contents)
+
+
+### Forking the GitHub Repository
+
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project by using the following steps
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) above the Settings Button on the menu, click the Fork Button.
+3. Scroll down the page and click the Create Fork button to make a copy.
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click the Code button next to the green Gitpod button.
+3. To clone the repository using HTTPS, under the HTTPS tab, copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Click [Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo) for the Github tutorial.
